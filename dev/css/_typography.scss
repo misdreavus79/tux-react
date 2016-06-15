@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'clarendon';
+	src: url('https://storage.googleapis.com/imp-projects/rabt/fonts/ClarendonLTStd.eot');
+	src: url('https://storage.googleapis.com/imp-projects/rabt/fonts/ClarendonLTStd.eot?#iefix') format('embedded-opentype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/ClarendonLTStd.woff') format('woff'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/ClarendonLTStd.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'medium';
+	src: url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Md.eot');
+	src: local('Helvetica Neue LT Std 65 Medium'), local('HelveticaNeueLTStd-Md'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Md.woff') format('woff'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Md.ttf') format('truetype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'bold';
+	src: url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Bd.eot');
+	src: local('Helvetica Neue LT Std 75 Bold'), local('HelveticaNeueLTStd-Bd'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Bd.woff') format('woff'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roman';
+	src: url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Roman.eot');
+	src: local('Helvetica Neue LT Std 55 Roman'), local('HelveticaNeueLTStd-Roman'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Roman.woff') format('woff'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype'),
+		url('https://storage.googleapis.com/imp-projects/rabt/fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$clarendon: 'clarendon', "Times New Roman", serif;
+$medium: 'medium', "Helvetica Neue", "Helvetica", sans-serif;
+$bold: 'bold', "Helvetica Neue", "Helvetica", sans-serif;
+$roman: 'roman', "Helvetica Neue", "Helvetica", sans-serif;
+
+h1, h2, h3, h4, h5, h6{
+	color: $mainColor;
+}
+h1{
+	margin-top: 0;
+	font-family: $clarendon;
+	font-weight: lighter;
+	margin: 0;
+	line-height: 100%;
+}
+h2{
+	margin: 9px 0;
+}
